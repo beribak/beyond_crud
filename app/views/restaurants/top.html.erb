@@ -1,0 +1,16 @@
+<h2>Top Page</h2>
+
+<ul>
+    <% @restaurants_top.each do |restaurant| %>
+        <li>
+            <%= restaurant.name %>
+        </li>
+
+        <li>
+            <%= restaurant.stars %>
+        </li>
+
+        <br>
+        <br>
+    <% end %>
+</ul>
